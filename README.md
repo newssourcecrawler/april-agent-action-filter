@@ -6,7 +6,10 @@ April Agent Action Filter is a small Rust library for reviewing computer-use-age
 
 It treats proposed actions as data. It does not execute commands, open files, call tools, make network requests, or run as an agent.
 
+
 The first use case is simple: an LLM or computer-use agent proposes a local action, and this crate classifies whether that proposal is reviewable by a bounded human-review layer.
+
+OpenClaw-like computer-use agents are one useful pressure test for this boundary. The crate remains generic: it does not depend on OpenClaw, implement OpenClaw APIs, or claim OpenClaw compatibility.
 
 ## What it does
 
@@ -120,4 +123,4 @@ cargo test
 
 ## License
 
-Apache-2.0
+MIT
