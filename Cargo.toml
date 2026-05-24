@@ -1,0 +1,18 @@
+
+
+[package]
+name = "april-agent-action-filter"
+version = "0.1.0"
+edition = "2021"
+license = "MIT"
+description = "A small review-boundary model for computer-use-agent action proposals before tool access."
+repository = "https://github.com/newssourcecrawler/april-agent-action-filter"
+readme = "README.md"
+keywords = ["agent", "llm", "review", "safety", "actions"]
+categories = ["development-tools", "command-line-utilities"]
+
+[lib]
+name = "april_agent_action_filter"
+path = "src/lib.rs"
+
+[dependencies]
